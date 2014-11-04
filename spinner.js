@@ -1,7 +1,5 @@
-//Spinner is a spinner simulation designed to make probability easier. Originally meant for use in procedural generation
-
 Spinner = function() {
-	this.QUATER = .25
+	this.QUARTER = .25
 	this.HALF = .5
 
 	this.spin = function() {
@@ -25,6 +23,3 @@ Spinner = function() {
 
 	}
 }
-
-var spinner = new Spinner()
-spinner.spin({value: spinner.QUATER, callback: function(){console.log("WOO HOO LANDED ON Q1");}}, {value: .75, callback:function(){console.log("HM");}})
