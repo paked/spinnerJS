@@ -5,7 +5,7 @@ SpinnerJS is a spinner simulation library designed to make probability easier in
 `var spinner = new Spinner()`
 
 ##Create Values
-`first = {value: spinner.QUARTER, callback: function(){console.log("Landed on Quater One");}}`
+`first = {value: spinner.QUARTER, callback: function(){console.log("Landed on Quarter One");}}`
 
 `second = {value: .75, callback:function(){console.log("Fail");}}`
 
